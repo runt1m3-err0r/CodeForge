@@ -3,8 +3,10 @@
   "difficulty": "Easy",
   "topics": ["Math", "Input/Output"],
   "description": "Write a program that takes two integers, <code>a</code> and <code>b</code>, as input and returns their sum.<br><br><strong>Example:</strong><pre>Input: a = 3, b = 5\nOutput: 8</pre>",
-  "starter_code": "#include <stdio.h>\n\nint main() {\n    int a, b;\n    scanf(\"%d %d\", &a, &b);\n    printf(\"%d\\n\", a + b);\n    return 0;\n}",
-  "header_files": ["stdio.h"],
+  "starter_code": "int Sum(int a, int b){",
+  "header_files": "#include <stdio.h>",
+  "int_main": "int main(){",
+  "required_function": "Sum(",
   "example": {
     "input": "3 5",
     "output": "8",
